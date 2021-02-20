@@ -26,7 +26,7 @@ steps:
     displayName: 'Install Docker'
   - task: AWSShellScript@1
     inputs:
-        awsCredentials: 'azalenek-cp'
+        awsCredentials: 'ecarbon-cp'
         regionName: $(AWS_REGION)
         scriptType: 'inline'
         inlineScript: |
