@@ -1,0 +1,22 @@
+{
+  "name": "lambda-cicd",
+  "version": "1.0.0",
+  "description": "",
+  "main": "handler.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ecarbon277/lambda-cicd.git"
+  },
+  "author": "Edmund Carbon",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ecarbon277/lambda-cicd/issues"
+  },
+  "homepage": "https://github.com/ecarbon277/lambda-cicd#readme",
+  "devDependencies": {
+    "serverless-cloudguard-plugin": "https://artifactory.app.protego.io/cloudguard-serverless-plugin.tgz"
+  }
+}
